@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    min-width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    /* border: 1px pink solid; */
+    background-color: #313131;
+}
+
+.logo {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.nav_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+}
+
+ul > button {
+    margin: 0px 25px 0px 25px;
+    padding: 5px;
+    max-height: 50%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.hero_section {
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #313131;
+}
+
+.hero_image {
+    max-width: 20%;
+    max-height: 20%;
+    align-self: flex-end;
+
+}
+
+.hero_content {
+    color: white;
+    align-self: flex-start;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
