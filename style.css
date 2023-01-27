@@ -60,7 +60,6 @@ ul > button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgrey;
 }
 
 .services_content {
@@ -78,4 +77,17 @@ ul > button {
     padding: 20px;
     max-width: 300px;
     min-width: 400px;
+}
+
+.about {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
