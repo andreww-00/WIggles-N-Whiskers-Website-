@@ -68,21 +68,24 @@ ul > button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 650px; 
+    padding: 0 50px;
 }
 
 .services_content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0px;
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
 
 .services {
     background-color: #C1CEA1;
 }
 
+.services_button {
+    grid-column: 2;
+    padding: 10px 25px;
+}
 .services > h3 {
     font-size: 48px;
     margin: 50px 0 5px 0;
@@ -95,13 +98,19 @@ ul > button {
     margin-bottom: 50px;
 }
 
-.left, .mid, .right {
+.grid {
     border: 1px black solid;
-    flex:1;
-    margin: 40px 0 40px 0;
-    padding: 20px;
-    max-width: 300px;
-    min-width: 400px;
+    padding: 15px;
+    background-color: white;
+    
+}
+
+.grid > h3 {
+    font-size: 24px;
+}
+
+.grid > p {
+    font-size: 16px;
 }
 
 .about {
