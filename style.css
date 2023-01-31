@@ -170,6 +170,21 @@ ul > button {
 
 .footer > .footer_content {
     display: flex;
+    justify-content: space-between;
     min-width: 100vw;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.footer_grid > img {
+    grid-row: 1 / span 2;
+}
+
+.footer_grid > h3 {
+    align-self: start; 
+    grid-column-start: 2;
 }
 
