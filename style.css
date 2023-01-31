@@ -106,32 +106,30 @@ ul > button {
 
 .about {
     background-color: lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    justify-content:center;
+    grid-template-columns: 40% 40%;
     height: 700px;
 }
 
-.about_left { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 200px;
-}
-
-.about > .about_left > h3 {
-    font-size: 48px;
-    align-self: flex-start;
-    margin-top: 0;
-}
-
-.about > .about_left > p {
-    font-size: 24px;
-    align-self: flex-start;
-}
-
 .about > img {
-    margin:0 200px;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+    justify-self: center;
+}
+
+ .about > h3 {
+    font-size: 48px;
+    align-self: end;
+    justify-self: end;
+    margin: 20px 0;
+}
+
+ .about > p {
+    font-size: 24px;
+    align-self: start;
+    text-align: end;
 }
 
 .test {
